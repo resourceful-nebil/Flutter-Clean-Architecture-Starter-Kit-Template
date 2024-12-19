@@ -77,11 +77,19 @@ lib/
 
 ### Adding Features
 
-1. **Define Entities** in `domain/entities/` to represent core business objects.
-2. **Create Use Cases** in `domain/usecases/` to encapsulate application-specific business logic.
-3. **Implement Repositories** in `data/repositories/` to handle data fetching and storage logic.
-4. **Add Data Sources** in `data/datasources/` for remote (API) and local (cache) data handling.
-5. **Integrate with UI** using `flutter_bloc` for state management and UI updates.
+1. **Use the Template Folder**
+   - Open **VS Code** and use the **Search and Replace** feature.
+   - Search for the word `template` and replace it with the name of the feature you are implementing.
+   - Copy the `template` feature folder as many times as you need for additional features.
+   - Replace `template` in all copied folders with the respective feature name.
+
+   This process will save you time by automating the creation of boilerplate code for your app's features, keeping your project consistent and clean.
+
+2. **Define Entities** in `domain/entities/` to represent core business objects.
+3. **Create Use Cases** in `domain/usecases/` to encapsulate application-specific business logic.
+4. **Implement Repositories** in `data/repositories/` to handle data fetching and storage logic.
+5. **Add Data Sources** in `data/datasources/` for remote (API) and local (cache) data handling.
+6. **Integrate with UI** using `flutter_bloc` for state management and UI updates.
 
 ### Dependency Injection
 
@@ -193,5 +201,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 
