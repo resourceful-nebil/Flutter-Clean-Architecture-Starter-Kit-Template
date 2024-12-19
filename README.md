@@ -6,13 +6,13 @@ Welcome to the **Flutter Clean Architecture Starter Kit**! This repository is de
 
 ## Features
 
-- **Layered Architecture:** Clear separation of `Presentation`, `Domain`, and `Data` layers.
-- **State Management:** Powered by `flutter_bloc` for robust and reactive state handling.
-- **Dependency Injection:** Easy service locator setup using `GetIt`.
-- **Networking:** API integration made simple with `dio`.
-- **Local Storage:** Manage lightweight data storage using `shared_preferences`.
-- **Error Handling:** Functional programming tools via `dartz` for safe and predictable error handling.
-- **Connectivity:** Network checks using `data_connection_checker_tv`.
+- 🏗️ **Layered Architecture:** Clear separation of `Presentation`, `Domain`, and `Data` layers.
+- 🎯 **State Management:** Powered by `flutter_bloc` for robust and reactive state handling.
+- 🛠️ **Dependency Injection:** Easy service locator setup using `GetIt`.
+- 🌐 **Networking:** API integration made simple with `dio`.
+- 💾 **Local Storage:** Manage lightweight data storage using `shared_preferences`.
+- ⚡ **Error Handling:** Functional programming tools via `dartz` for safe and predictable error handling.
+- 📶 **Connectivity:** Network checks using `data_connection_checker_tv`.
 
 ---
 
@@ -23,6 +23,11 @@ This starter kit follows the Clean Architecture structure:
 ```
 lib/
 ├── core/              # Core utilities and constants
+│   ├── error/         # Error handling utilities
+│   ├── network/       # Network-related utilities
+│   ├── usecases/      # Base classes for use cases
+│   ├── utils/         # General utility functions
+│   └── injection_container.dart # Dependency injection setup
 ├── data/              # Data layer (API, models, and repositories)
 │   ├── datasources/   # Remote and local data sources
 │   ├── models/        # Data models (e.g., JSON responses)
