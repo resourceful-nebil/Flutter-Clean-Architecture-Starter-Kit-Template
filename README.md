@@ -259,9 +259,43 @@ Here’s a quick walkthrough for adding a feature:
 ---
 
 
-## Contribution
+# Contributing to Flutter Clean Architecture Starter Kit 🚀
 
-Contributions are welcome! Feel free to open issues or submit pull requests to improve this starter kit.
+Thank you for considering contributing to this project! 🙌 Here are the guidelines to get you started:
+
+## How to Contribute 🌟
+
+1. **Fork the Repository** 🍴: Create a fork of this repository to your own GitHub account.
+
+2. **Clone Your Fork** 🖥️:
+   ```bash
+   git clone https://github.com/your-username/Flutter-Clean-Architecture-Starter-Kit-Template.git
+   ```
+
+3. **Create a Branch** 🌿:
+   Create a feature branch for your changes.
+   ```bash
+   git checkout -b feature/my-feature
+   ```
+
+4. **Make Your Changes** 🛠️:
+   - Ensure your code adheres to the coding style and project structure.
+   - Add tests for your changes if applicable.
+
+5. **Commit Your Changes** ✅:
+   Write clear and descriptive commit messages.
+   ```bash
+   git commit -m "✨ Add feature: my feature description"
+   ```
+
+6. **Push Your Changes** 🚀:
+   ```bash
+   git push origin feature/my-feature
+   ```
+
+7. **Submit a Pull Request** 🔄:
+   - Open a pull request on the main repository.
+   - Provide a detailed description of your changes.
 
 ---
 
@@ -270,4 +304,18 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
+## Code of Conduct 📝
+
+By contributing, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Reporting Issues 🐛
+
+If you find a bug or have a feature request, please [open an issue](https://github.com/resourceful-nebil/Flutter-Clean-Architecture-Starter-Kit-Template/issues) on GitHub.
+
+## Feedback and Suggestions 💡
+
+We welcome feedback and suggestions to improve the project. Feel free to reach out via the Issues tab or submit a pull request with your proposal.
+
+Thank you for contributing! 🎉
+```
 
