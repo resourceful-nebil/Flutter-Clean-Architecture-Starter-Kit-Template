@@ -317,5 +317,5 @@ If you find a bug or have a feature request, please [open an issue](https://gith
 We welcome feedback and suggestions to improve the project. Feel free to reach out via the Issues tab or submit a pull request with your proposal.
 
 Thank you for contributing! 🎉
-```
+
 
