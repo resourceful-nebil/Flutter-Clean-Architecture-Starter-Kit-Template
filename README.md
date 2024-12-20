@@ -1,4 +1,4 @@
-# Flutter Clean Architecture Starter Kit
+# 📱Flutter Clean Architecture Starter Kit🌍
 
 Welcome to the **Flutter Clean Architecture Starter Kit**! This repository is designed to provide a solid foundation for your Flutter projects by implementing clean architecture principles, best practices, and modern development tools.
 
