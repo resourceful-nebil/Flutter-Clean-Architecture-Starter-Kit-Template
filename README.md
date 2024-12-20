@@ -192,6 +192,11 @@ Here’s a quick walkthrough for adding a feature:
 
 ---
 
+## Clean Architecture 
+
+![image](https://github.com/user-attachments/assets/c648fcc8-5277-4d9e-b27f-9fef4c25b10d)
+
+
 ## Contribution
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this starter kit.
