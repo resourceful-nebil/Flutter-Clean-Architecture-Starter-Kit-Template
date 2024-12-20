@@ -4,6 +4,23 @@ Welcome to the **Flutter Clean Architecture Starter Kit**! This repository is de
 
 ---
 
+## Clean Architecture Overview
+
+Clean Architecture is a software design philosophy that emphasizes the separation of concerns, creating highly maintainable, testable, and scalable applications.
+
+![image](https://github.com/user-attachments/assets/c648fcc8-5277-4d9e-b27f-9fef4c25b10d)
+
+Benefits of Clean Architecture:
+
+- 💡 **Scalability**: Easily adapt your codebase to new features and requirements.
+- 🧪 **Testability**: Simplify unit testing by isolating business logic from the UI and data sources.
+- 🛠️ Maintainability: Modular design improves readability and reduces technical debt.
+- 🔄 Reusability: Code can be reused across platforms and layers.
+
+This starter kit follows the Clean Architecture pattern, ensuring your Flutter projects adhere to these principles from the start.
+
+---
+
 ## Features
 
 - 🏗️ **Layered Architecture:** Clear separation of `Presentation`, `Domain`, and `Data` layers.
@@ -42,6 +59,55 @@ lib/
 │   └── widgets/       # Reusable widgets
 └── main.dart          # Application entry point
 ```
+
+---
+
+## Core Folder Structure
+
+The `core` folder contains shared utilities and base classes that provide foundational functionality across your application:
+
+### `error/`:
+- Manages error and failure handling across all layers.
+- Provides classes like `Failure` to standardize error representation.
+
+### `network/`:
+- Handles network-related concerns such as connectivity checks.
+- Ensures reliable API interaction by checking connection status.
+
+### `usecases/`:
+- Contains base use case classes to define consistent business logic patterns.
+- Simplifies interaction between domain and data layers.
+
+### `utils/`:
+- Houses helper functions, constants, and other reusable utilities.
+- Provides tools to reduce code duplication and enhance maintainability.
+
+### `injection_container.dart`:
+- Configures and manages dependency injection using GetIt.
+- Centralizes dependency registration for easy maintenance.
+
+## Features Folder Structure
+
+The `features` folder organizes your app's functionalities into independent modules. Each module contains its own `data`, `domain`, and `presentation` layers, ensuring modularity and scalability.
+
+### `template/`:
+- A ready-to-use template to quickly scaffold new features.
+- Copy and rename the folder to match your feature name.
+
+#### Subfolders in `template/`:
+
+##### `data/`:
+- Implements data sources, models, and repository logic.
+- Connects to remote APIs or local databases.
+
+##### `domain/`:
+- Defines core business entities and use cases.
+- Encapsulates application-specific business rules.
+
+##### `presentation/`:
+- Contains UI components like pages, widgets, and BLoC for state management.
+- Ensures seamless integration with the user interface.
+
 
 ---
 
@@ -191,10 +257,6 @@ Here’s a quick walkthrough for adding a feature:
    ```
 
 ---
-
-## Clean Architecture 
-
-![image](https://github.com/user-attachments/assets/c648fcc8-5277-4d9e-b27f-9fef4c25b10d)
 
 
 ## Contribution
