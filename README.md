@@ -303,18 +303,41 @@ Thank you for considering contributing to this project! 🙌 Here are the guidel
 
 ---
 
+## Testing Needs Your Contribution 🧪
+
+The `test` folder is a critical part of this project, and it’s not yet complete. We rely on community contributions to improve test coverage and ensure code quality.
+
+### How You Can Help:
+- Write unit tests for untested functions and features.
+- Improve existing tests to make them more robust.
+- Report any gaps in the testing framework.
+
+### Why Contribute to Testing? 🌟
+- Ensure the project's reliability for all users.
+- Learn and practice **test-driven development (TDD)**.
+- Gain valuable experience contributing to an open-source project.
+
+If you're new to testing, no worries! Check out [Testing Guidelines](#testing-guidelines) below for tips and resources to get started.
+
+---
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+---
 
 ## Code of Conduct 📝
 
 By contributing, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.md).
 
+---
+
 ## Reporting Issues 🐛
 
 If you find a bug or have a feature request, please [open an issue](https://github.com/resourceful-nebil/Flutter-Clean-Architecture-Starter-Kit-Template/issues) on GitHub.
+
+---
 
 ## Feedback and Suggestions 💡
 
