@@ -1,5 +1,9 @@
 # 📱Flutter Clean Architecture Starter Kit🌍
 
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+
 Welcome to the **Flutter Clean Architecture Starter Kit**! This repository is designed to provide a solid foundation for your Flutter projects by implementing clean architecture principles, best practices, and modern development tools.
 
 ---
