@@ -126,14 +126,6 @@ lib/
 │   └── screens/
 └── main.dart
 ```
-
----
-
-## 🎬 Watch the Extension in Action
-
-> **PLACEHOLDER** – Add or link your screen-record tutorial here!  
-> You can embed a GIF or link a YouTube/Video tutorial demonstrating how to create a new feature in just a few clicks.  
-
 ---
 
 ## 🤝 Contributing
