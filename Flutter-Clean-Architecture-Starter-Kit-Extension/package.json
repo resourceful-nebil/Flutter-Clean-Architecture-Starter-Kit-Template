@@ -1,7 +1,7 @@
 {
-  "name": "flutter-clean-architecture-starter-kit",
+  "name": "flutter-clean-architecture-starter-kit-extension",
   "displayName": "Flutter Clean Architecture Starter Kit",
-  "description": "'Flutter Clean Architecture Starter Kit' is a VS Code extension that streamlines Clean Architecture setup for Flutter projects. Quickly scaffold core, data, domain, and presentation layers or remove features cleanly with a single command, ensuring a maintainable and scalable app structure",
+  "description": "This extension streamlines Clean Architecture setup for Flutter projects. Quickly scaffold core, data, domain, and presentation layers or remove features cleanly with a single command, ensuring a maintainable and scalable app structure",
   "version": "0.0.3",
   "publisher": "AbdulmajidAwol",  
   "engines": {
@@ -10,7 +10,11 @@
   "categories": [
     "Other"
   ],
-  "icon": "assets/flutter-icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maajidAwol/Flutter-Clean-Architecture-Starter-Kit-Vs-Extension.git"
+  },
+  "icon": "assets/icon_flutter.png",
   "activationEvents": [
     "onCommand:extension.setupCleanArch"
   ],
